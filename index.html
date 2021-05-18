@@ -6,47 +6,53 @@
   <title>JS DrumKit</title>
   <!-- css -->
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Bootstrap -->
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 
 <body>
-  <div class="keys">
-    <div data-key="65" class="key">
+  <!-- <div class="container"> -->
+  <div class="row keys">
+    <div data-key="65" class="key col-lg-1 col-md-3">
       <kbd>A</kbd>
       <span class="sound">Clap</span>
     </div>
-    <div data-key="83" class="key">
+    <div data-key="83" class="key col-lg-1 col-md-3">
       <kbd>S</kbd>
       <span class="sound">Hihat</span>
     </div>
-    <div data-key="68" class="key">
+    <div data-key="68" class="key col-lg-1 col-md-3">
       <kbd>D</kbd>
       <span class="sound">kick</span>
     </div>
-    <div data-key="70" class="key">
+    <div data-key="70" class="key col-lg-1 col-md-3">
       <kbd>F</kbd>
       <span class="sound">openhat</span>
     </div>
-    <div data-key="71" class="key">
+    <div data-key="71" class="key col-lg-1 col-md-3">
       <kbd>G</kbd>
       <span class="sound">boom</span>
     </div>
-    <div data-key="72" class="key">
+    <div data-key="72" class="key col-lg-1 col-md-3">
       <kbd>H</kbd>
       <span class="sound">ride</span>
     </div>
-    <div data-key="74" class="key">
+    <div data-key="74" class="key col-lg-1 col-md-3">
       <kbd>J</kbd>
       <span class="sound">snare</span>
     </div>
-    <div data-key="75" class="key">
+    <div data-key="75" class="key col-lg-1 col-md-3">
       <kbd>K</kbd>
       <span class="sound">tom</span>
     </div>
-    <div data-key="76" class="key">
+    <div data-key="76" class="key col-lg-1 col-md-3">
       <kbd>L</kbd>
       <span class="sound">tink</span>
     </div>
   </div>
+  <!-- </div> -->
 
   <audio data-key="65" src="sounds/clap.wav"></audio>
   <audio data-key="83" src="sounds/hihat.wav"></audio>
